@@ -1,0 +1,83 @@
+.hd-top{
+    background-color: #00bdbb;
+    height:72px;
+}
+.h-36{
+    height:36px;
+}
+.hd-top div div{
+    line-height: 36px;
+}
+.hd-top div div div{
+    color:#fff;
+}
+
+.btn-lang{
+    float: right;
+}
+.btn-lang a{
+    font-weight: 450;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.btn-lang a:hover{
+    font-weight: 450;
+    text-decoration: none;
+    font-size: 14px;
+    color: #cecece;
+}
+.btn-lang i{
+    padding-left:3px;
+    padding-right:3px;
+}
+.btn-login{
+    padding-left: 25px;
+    float: right;
+}
+.btn-login a{
+    color: #fff;
+    font-weight: 450;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-login a:hover{
+    color: #cecece;
+    text-decoration: none;
+}
+.hd-contact{
+    float:left
+}
+
+.hd-contact i{
+    font-size: 14px;
+}
+.hd-contact a{
+    padding-left:6px;
+    padding-right:6px;
+    color:#fff;
+}
+.hd-contact a:hover{
+    color:#cecece;
+}
+.menu-bar{
+    margin-top: -36px;
+}
+.navbar{
+    height: 72px;
+}
+
+.navbar-brand{
+    margin-left:25px;
+    margin-bottom: 7px
+}
+.navbar-brand i{
+    font-size: 32px;
+}
+.navbar-collapse{
+    margin-right:25px;
+}
+.nav-item{
+    padding-left:10px;
+    padding-right:10px;
+}

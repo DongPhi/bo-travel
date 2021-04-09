@@ -1,0 +1,80 @@
+.n3-form-search{
+    z-index: initial; 
+    position: initial; 
+    background: rgb(241, 241, 241);
+    height: 85px;
+}
+.n3-form-search .frame-search {
+    margin: 0 auto;
+    display: table;
+    margin-top: -95px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.n3-form-search .o-dl {
+    background: #fff;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    border: 1px solid #ececec;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.icon-i-c1 img{
+    background-position: -269px -38px;
+    width: 41px;
+    height: 42px;
+    display: block;
+    margin: 0 auto 0;
+    margin-bottom: 20px;
+}
+.n3-form-search .text-1 {
+    text-transform: uppercase;
+    border-bottom: 1px dashed #4e4b4a;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.n3-form-search .text-2 {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: -22px
+}
+.n3-form-search .text-dltn {
+    color: #015196;
+}
+.n3-form-search .text-dlnn {
+    color: #f0433a;
+}
+.n3-form-search .text-dltc1 {
+    color: #f2a30f;
+}
+.n3-form-search .text-tttc {
+    color: #008c72;
+}
+.n3-form-search .text-hvtt {
+    color: #4834d4;
+}
+.n3-form-search .dltn:hover {
+    border: 1px solid #015196;
+}
+.n3-form-search .dlnn:hover {
+    border: 1px solid #f0433a;
+}
+.n3-form-search .dltc1:hover {
+    border: 1px solid #f2a30f;
+}
+.n3-form-search .tttc:hover {
+    border: 1px solid #008c72;
+}
+.n3-form-search .hvtt:hover {
+    border: 1px solid #4834d4;
+}
