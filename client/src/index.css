@@ -14,6 +14,28 @@ code {
     monospace;
 }
 
-@import url(./components/headers/Header.css);
-@import url(./components/slides/Slide.css);
-@import url(./components/searchs/Search.css);
+
+a{
+  text-decoration: none;
+}
+ ul li {
+   list-style: none;
+ }
+ button{
+   border:none;
+   outline: none;
+   background: transparent;
+   cursor: pointer;
+ }
+
+/* ------------------Header--------------------- */
+@import url(./components/headers/header.css);
+
+/* ----------------------Slide---------------------- */
+/* @import url(./components/headers/slides/Slide.css);
+
+/* ----------------------Slide---------------------- */
+/* @import url(./components/headers/searchs/Search.css); */ 
+
+/* ------------------Products--------------------- */
+@import url(./components/mainpages/product/products.css);

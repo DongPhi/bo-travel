@@ -1,0 +1,10 @@
+.product_card{
+    background-color: #eee;
+}
+.product_box{
+    padding: 10px;
+}
+.product_box h5 {
+    border-bottom:1px dashed gray;
+    padding-bottom: 10px;
+}

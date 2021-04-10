@@ -1,5 +1,6 @@
-import React, {useState, useContext} from 'react'
+import React, { useContext, useEffect} from 'react'
 import {GlobalState} from '../../GlobalState'
+import {Link} from 'react-router-dom'
 
 function Header() {
     const value = useContext(GlobalState)
@@ -12,10 +13,10 @@ function Header() {
                             <div className="hd-top-r">
                                 <div className="hd-contact">
                                     <i className="pr-2">LIÊN HỆ</i>
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/dongphivnn/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                                    <Link to="#"><i class="fa fa-instagram" aria-hidden="true"></i></Link>
+                                    <Link to="#"><i class="fa fa-twitter" aria-hidden="true"></i></Link>
+                                    <Link to="#"><i class="fa fa-phone" aria-hidden="true"></i></Link>
                                     <i className="pl-2">0582.565.855</i>
                                 </div>  
                             </div>
@@ -23,12 +24,12 @@ function Header() {
                         <div className="col-sm-6 text-right">
                             <div className="hd-top-r">
                                 <div className="btn-login">
-                                    <a href="#">ĐĂNG NHẬP</a>
+                                    <Link to="/login">ĐĂNG NHẬP</Link>
                                 </div>
                                 <div className="btn-lang">
-                                    <a href="#" className="">VIE</a>
+                                    <Link to="#" className="">VIE</Link>
                                     <i>|</i>
-                                    <a href="#" className="">ENG</a>
+                                    <Link to="#" className="">ENG</Link>
                                 </div>
                             </div>
                         </div>
@@ -38,29 +39,29 @@ function Header() {
             <div className="hd-bot">
                 <div className="menu-bar container">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <a className="navbar-brand" href="/"><i>BOtravel</i></a>
+                        <Link className="navbar-brand" to="/"><i>BOtravel</i></Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark " href="#">TOUR DU LỊCH</a>
+                                    <Link className="nav-link text-dark " to="#">TOUR DU LỊCH</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="#">KHÁCH SẠN</a>
+                                    <Link className="nav-link text-dark" to="#">KHÁCH SẠN</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="#">DI CHUYỂN</a>
+                                    <Link className="nav-link text-dark" to="#">DI CHUYỂN</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="#">TIN TỨC</a>
+                                    <Link className="nav-link text-dark" to="#">TIN TỨC</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="#">KHUYẾN MÃI</a>
+                                    <Link className="nav-link text-dark" to="#">KHUYẾN MÃI</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="#">LIÊN HỆ</a>
+                                    <Link className="nav-link text-dark" to="#">LIÊN HỆ</Link>
                                 </li>
                             </ul>
                         </div>
