@@ -15,9 +15,14 @@
 
 /* ----------------Slide------------------- */
 .slide{
-    z-index: -1;
+    z-index: 1;
+    position: relative;
 }
 /* ---------------Search---------------------- */
+.search{
+    z-index: 2;
+    position: relative;
+}
 .n3-form-search{
     z-index: initial; 
     position: initial; 

@@ -1,5 +1,6 @@
 import React, {createContext, useState} from 'react'
 import ProductsAPI from './api/ProductsAPI'
+import HotelsAPI from './api/HotelsAPI'
 
 export const GlobalState = createContext()
 
@@ -9,7 +10,8 @@ export const DataProvider = ({children}) =>{
     
     const state = {
         token: [token, setToken],
-        productsAPI: ProductsAPI()
+        productsAPI: ProductsAPI(),
+        hotelsAPI: HotelsAPI()
     }
 
     return(

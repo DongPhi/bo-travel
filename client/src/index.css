@@ -31,11 +31,11 @@ a{
 /* ------------------Header--------------------- */
 @import url(./components/headers/header.css);
 
-/* ----------------------Slide---------------------- */
-/* @import url(./components/headers/slides/Slide.css);
+/* -----------------Hotel------------------------ */
+@import url(./components/mainpages/hotel/hotels.css);
 
-/* ----------------------Slide---------------------- */
-/* @import url(./components/headers/searchs/Search.css); */ 
+/* -----------------Auth------------------------ */
+@import url(./components/mainpages/auth/styleauth.css);
 
 /* ------------------Products--------------------- */
 @import url(./components/mainpages/product/products.css);

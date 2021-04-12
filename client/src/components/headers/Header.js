@@ -1,4 +1,4 @@
-import React, { useContext, useEffect} from 'react'
+import React, { useContext} from 'react'
 import {GlobalState} from '../../GlobalState'
 import {Link} from 'react-router-dom'
 
@@ -49,7 +49,7 @@ function Header() {
                                     <Link className="nav-link text-dark " to="#">TOUR DU LỊCH</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-dark" to="#">KHÁCH SẠN</Link>
+                                    <Link className="nav-link text-dark" to="/hotel">KHÁCH SẠN</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link text-dark" to="#">DI CHUYỂN</Link>

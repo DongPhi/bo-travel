@@ -60,13 +60,16 @@
 .hd-contact a:hover{
     color:#cecece;
 }
+.hd-bot{
+    z-index: 2;
+    position: relative;
+}
 .menu-bar{
     margin-top: -36px;
 }
 .navbar{
     height: 72px;
 }
-
 .navbar-brand{
     margin-left:25px;
     margin-bottom: 7px

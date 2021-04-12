@@ -23,20 +23,22 @@ function Products() {
                     {/* The slideshow */}
                     <div className="carousel-inner">
                         <div className="carousel-item active" >
-                            <img src={Slide01} alt="slide-1" width="100%"height="490px"/>
+                            <img src={Slide01} alt="slide-1" width="100%"height="500px"/>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Slide01} alt="slide-2" width="100%" height="490px"/>
+                            <img src={Slide01} alt="slide-2" width="100%" height="500px"/>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Slide01} alt="slide-3" width="100%" height="490px"/>
+                            <img src={Slide01} alt="slide-3" width="100%" height="500px"/>
                         </div>
                     </div>
                     {/* Left and right controls */}
                     <a className="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a className="carousel-control-next" href="#demo" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
@@ -48,27 +50,27 @@ function Products() {
                             <div className="col-xs-12">
                                 <div className="frame-search">
                                     <div className="o-dl dltn">
-                                        <i className="icon-i-c1"><img src={Iluggage}/></i>
+                                        <i className="icon-i-c1"><img src={Iluggage} alt="" /></i>
                                         <p className="text-1">Tìm tour</p>
                                         <p className="text-2 text-dltn">Đà Nẵng</p>
                                     </div>
                                     <div className="o-dl dlnn">
-                                        <i className="icon-i-c1"><img src={Icar}/></i>
+                                        <i className="icon-i-c1"><img src={Icar} alt="" /></i>
                                         <p className="text-1">Tìm xe</p>
                                         <p className="text-2 text-dlnn">Di chuyển</p>
                                     </div>
                                     <div className="o-dl dltc1">
-                                        <i className="icon-i-c1"><img src={Imap}/></i>
+                                        <i className="icon-i-c1"><img src={Imap} alt="" /></i>
                                         <p className="text-1">Du lịch</p>
                                         <p className="text-2 text-dltc1">Tự do</p>
                                     </div>
                                     <div className="o-dl tttc">
-                                        <i className="icon-i-c1"><img src={Icoconut}/></i>
+                                        <i className="icon-i-c1"><img src={Icoconut} alt="" /></i>
                                         <p className="text-1">Điểm đến</p>
                                         <p className="text-2 text-tttc">Hấp dẫn</p>
                                     </div>
                                     <div className="o-dl hvtt">
-                                        <i className="icon-i-c1"><img src={Iticket}/></i>
+                                        <i className="icon-i-c1"><img src={Iticket} alt="" /></i>
                                         <p className="text-1">Tìm kiếm</p>
                                         <p className="text-2 text-hvtt">Khuyến mãi</p>
                                     </div>
@@ -81,11 +83,10 @@ function Products() {
             <div className="container">
                 <div className="text-center mt-4 mb-1">
                     <h2 className="title-1">
-                        <img src={Ihleft} />
-                        <a href="#">Tour hàng ngày</a>
-                        <img src={Ihright}></img>
+                        <img src={Ihleft} alt="" />
+                        <Link to="#">Tour hàng ngày</Link>
+                        <img src={Ihright} alt="" />
                     </h2>
-                    
                 </div>
                 <div className="text-center mb-4">
                     <p>Tour hàng ngày với giá tốt</p>

@@ -1,5 +1,4 @@
 const Products = require('../models/productModel')
-
 //Filler, sorting and paginating
 
 class APIfeatures {
