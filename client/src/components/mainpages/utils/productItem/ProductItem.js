@@ -9,8 +9,8 @@ function ProductItem({product}) {
                     <img src={product.images.url} alt="" width="100%" height="200px"/>
                     <div className="product_box">
                         <h5 title={product.title}>{product.title}</h5>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> {product.description}</p>
-                        <span><i class="fa fa-map-marker" aria-hidden="true"> Giá:</i> {product.price} VNĐ</span>
+                        <p><i className="fa fa-map-marker" aria-hidden="true"></i> {product.description}</p>
+                        <span><i className="fa fa-map-marker" aria-hidden="true"> Giá:</i> {product.price} VNĐ</span>
                     </div>
                 </Link>
                 

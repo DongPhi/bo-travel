@@ -46,7 +46,7 @@
     text-decoration: none;
 }
 .hd-contact{
-    float:left
+    float:left;
 }
 
 .hd-contact i{
@@ -59,6 +59,7 @@
 }
 .hd-contact a:hover{
     color:#cecece;
+    text-decoration: none;
 }
 .hd-bot{
     z-index: 2;

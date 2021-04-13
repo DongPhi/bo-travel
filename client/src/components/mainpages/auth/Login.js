@@ -27,31 +27,30 @@ function Login() {
     }
 
     return (
-        <div className="container login-page">
+        <div className="login-page">
             <div className="row content">
                 <div className="col-md-6 mb-3" >
-                    <img src={LoginImg} alt="image" className="img-fluid" />
+                    <img src={LoginImg} alt="" className="img-fluid" />
                 </div>
                 <div className="col-md-6">
-                    <h3 className="signin-text mb-3">Đăng Nhập</h3>
+                    <h3 className="signin-text mb-3 text-center">Đăng Nhập</h3>
                     <form onSubmit={loginSubmit}>
                         <div className="form-group">
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="email" name="email" required
                             placeholder="Email" className="form-control" value={user.email} onChange={onChangeInput} />
                         </div>
                         <div className="form-group">
-                            <label for="password">Mật khẩu</label>
+                            <label htmlFor="password">Mật khẩu</label>
                             <input type="password" name="password" required autoComplete="on"
-                            placeholder="Email" className="form-control" value={user.password} onChange={onChangeInput} />
+                            placeholder="Mật khẩu" className="form-control" value={user.password} onChange={onChangeInput} />
                         </div>
                         <div className="form-group form-check">
                             <input type="checkbox" name="checkbox" className="form-check-input" id="checkbox" />
-                            <label className="form-check-label" for="checkbox">Lưu tài khoản</label>
+                            <label className="form-check-label" htmlFor="checkbox">Lưu tài khoản</label>
                         </div>
                         <button className="btn btn-class">Đăng Nhập</button>
-                        <button className="btn btn-class"><Link to="/register">Đăng Ký</Link></button>
-                        
+                        <p className="text-center mt-2">Bạn chưa có tài khoản, hãy nhấn vào đây để <Link className="ln-regis" to="/register">Đăng ký</Link></p>
                     </form>
                 </div>
             </div>
